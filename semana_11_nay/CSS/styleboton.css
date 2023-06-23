@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.page{
+    border: 3px solid  green;
+    border-radius: 20px;/*par que salgue ovalado*/
+    margin: 20px auto; /* tabajan los 4 lados el auto es determoinar o balancia el espacio*/
+    width: 50%;   
+    padding: 10px;/* para centrar el parrafo o el contenido */
+}
+h1{
+    text-align: center;
+}
+p{
+  text-align: justify;  
+}
+.boton{
+ /*display: inline-block; ---*/
+/* las anclas  no trabajan con margen y padeing*/
+    background-color: green;
+    text-decoration: none;/* para quitar la linea de texto*/
+    display: inline-block;
+    text-transform: uppercase;/*para cambiar el texto de minuscula a mayuscula*/
+    margin: 15px 10px;
+    border-radius: 15px;
+    margin: 15px 10px;
+    padding: 8px;
+    color: #ffff;
+    /*transition-duration: 3000ms;*/
+                                                                                        
+}
+.boton:hover{
+    opacity: 0.9;
+    color: black;
+    background-color: orange;
+
+}
+.boton:active{
+    transform: scale(.95);
+}
